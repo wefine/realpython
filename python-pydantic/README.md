@@ -1,6 +1,6 @@
 # Pydantic: Simplifying Data Validation in Python
 
-Supporting code for the Real Python tutorial [Pydantic: Simplifying Data Validation in Python](https://realpython.com/pydantic-simplifying-data-validation-in-python/). 
+Supporting code for the Real Python tutorial [Pydantic: Simplifying Data Validation in Python](https://realpython.com/python-pydantic/). 
 
 To run the code in this tutorial, install Pydantic with its `email` dependency:
 

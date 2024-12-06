@@ -114,3 +114,6 @@ ENV/
 
 # VS Code workspace
 *.code-workspace
+
+.idea
+*.lock

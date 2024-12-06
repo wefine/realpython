@@ -18,3 +18,25 @@ exclude        = [".git", "venv", "migrations", "node_modules"]
 [tool.ruff.lint]
 select = ["E", "F", "I", "RUF100"]
 ignore = ["E501"]                  # Line length is controlled by Black
+
+[tool.poetry]
+name = "realpython-gl"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.32.3"
+ruff = "0.4.2"
+black = {version = "24.4.2", extras = ["jupyter"]}
+pydantic = "^2.10.3"
+pydantic-settings = "^2.6.1"
+numpy = "^2.1.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
